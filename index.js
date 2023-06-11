@@ -1,3 +1,16 @@
+document.addEventListener("DOMContentLoaded", function() {
+    var loader = document.getElementById("loader");
+    var app = document.getElementById("app")
+
+    setTimeout(function(){
+        loader.style.display = "none"
+    }, 2000)
+
+    setTimeout(function(){
+        app.style.display = "flex"
+    }, 2000)
+})
+
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
@@ -23,6 +36,3 @@ function save() {
     countEl.innerText = 0
     count = 0
 }
-
-// Google:
-// innerText alternative mdn

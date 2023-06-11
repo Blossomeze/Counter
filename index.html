@@ -8,16 +8,29 @@
     <link rel="stylesheet" href="index.css"> 
 </head>
     <body>
-        <h1>People entered:</h1>
-        <h2 id="count-el">0</h2>
-        <div class="btns">
-            <button id="increment-btn" onclick="increment()">INCREMENT</button>
-            <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
-            <button id="save-btn" onclick="save()">SAVE</button>
+        <div id="loader">
+            <div class="wrapper"><br/>
+                <h1 class="loader_text">#Coders_globe</h1>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
         </div>
-        <p id="save-el">Previous entires: </p>
-        <div>
-            <button id="reset-btn" onclick="reset()">RESET</button>
+        <div id="app">
+            <div id="wrapper_two"><br/>
+                <h1 class="loader_text">#Coders_globe</h1>
+            </div>
+            <h1>People entered:</h1>
+            <h2 id="count-el">0</h2>
+            <div class="btns">
+                <button id="increment-btn" onclick="increment()">INCREMENT</button>
+                <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+                <button id="save-btn" onclick="save()">SAVE</button>
+            </div>
+            <p id="save-el">Previous entires: </p>
+            <div>
+                <button id="reset-btn" onclick="reset()">RESET</button>
+            </div>     
         </div>
         <script src="index.js"></script>
     </body>
