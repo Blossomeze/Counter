@@ -28,6 +28,7 @@ function decrement() {
 function reset() {
     count = 0
     countEl.innerText = count
+    countStr.innerText = 0
 }
 
 function save() {
